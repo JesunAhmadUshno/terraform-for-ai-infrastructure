@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+lab/stack/.terraform/
+lab/stack/build/
+lab/stack/*.tfstate
+lab/stack/*.tfstate.*
+lab/stack/plan.bin
+lab/stack/.terraform.lock.hcl.bak
+work/
+*.egg-info/
+lab/stack/.terraform.lock.hcl

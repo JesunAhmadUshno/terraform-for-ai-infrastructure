@@ -1,0 +1,13 @@
+{
+  "addresses_compared": 13,
+  "engine_versions": {
+    "terraform": "Terraform v1.17.1",
+    "tofu": "OpenTofu v1.13.9"
+  },
+  "match_rate": 1.0,
+  "matches": 13,
+  "mismatches": [],
+  "resource_count_terraform": 13,
+  "resource_count_tofu": 13,
+  "study": "rq1_plan_equivalence"
+}

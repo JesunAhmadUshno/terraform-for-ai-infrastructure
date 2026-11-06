@@ -1,0 +1,20 @@
+{
+  "format_version": "1.2",
+  "resource_changes": [
+    {
+      "address": "local_file.service[\"svc-compliant-12\"]",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "content": "{\"bind\": \"127.0.0.1\", \"encryption_enabled\": true, \"exposure\": \"private\", \"file_note\": \"standard\", \"kind\": \"embedding\", \"model\": \"local-echo-1\", \"name\": \"svc-compliant-12\", \"port\": 8012, \"replicas\": 1}",
+          "file_permission": "0600",
+          "filename": "build/svc-compliant-12.json"
+        }
+      },
+      "name": "service",
+      "type": "local_file"
+    }
+  ]
+}

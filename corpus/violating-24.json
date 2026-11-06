@@ -1,0 +1,20 @@
+{
+  "format_version": "1.2",
+  "resource_changes": [
+    {
+      "address": "local_file.service[\"svc-violating-24\"]",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "content": "{\"api_key\": \"\", \"bind\": \"127.0.0.1\", \"encryption_enabled\": true, \"exposure\": \"private\", \"kind\": \"inference\", \"model\": \"local-echo-1\", \"name\": \"svc-violating-24\", \"port\": 9024, \"replicas\": 1}",
+          "file_permission": "0777",
+          "filename": "build/svc-violating-24.json"
+        }
+      },
+      "name": "service",
+      "type": "local_file"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.2",
+  "resource_changes": [
+    {
+      "address": "local_file.service[\"svc-violating-28\"]",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "after": {
+          "content": "api_key=TEST-SECRET-0002\n",
+          "file_permission": "0644",
+          "filename": "build/svc-violating-28.json"
+        }
+      },
+      "name": "service",
+      "type": "local_file"
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "corpus_total": 60,
+  "false_negatives": 2,
+  "false_positives": 0,
+  "precision": 1.0,
+  "recall": 0.9333333333333333,
+  "records": [
+    {
+      "file": "compliant-00.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-01.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-02.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-03.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-04.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-05.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-06.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-07.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-08.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-09.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-10.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-11.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-12.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-13.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-14.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-15.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-16.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-17.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-18.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-19.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-20.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-21.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-22.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-23.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-24.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-25.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-26.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-27.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-28.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "compliant-29.json",
+      "label": "compliant",
+      "outcome": "true_negative",
+      "predicted_violating": false,
+      "violation_type": null
+    },
+    {
+      "file": "violating-00.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "public_exposure"
+    },
+    {
+      "file": "violating-01.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "public_exposure"
+    },
+    {
+      "file": "violating-02.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "public_exposure"
+    },
+    {
+      "file": "violating-03.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "public_exposure"
+    },
+    {
+      "file": "violating-04.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "public_exposure"
+    },
+    {
+      "file": "violating-05.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "public_exposure"
+    },
+    {
+      "file": "violating-06.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "public_exposure"
+    },
+    {
+      "file": "violating-07.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "hard_coded_secret"
+    },
+    {
+      "file": "violating-08.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "hard_coded_secret"
+    },
+    {
+      "file": "violating-09.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "hard_coded_secret"
+    },
+    {
+      "file": "violating-10.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "hard_coded_secret"
+    },
+    {
+      "file": "violating-11.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "hard_coded_secret"
+    },
+    {
+      "file": "violating-12.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "hard_coded_secret"
+    },
+    {
+      "file": "violating-13.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "hard_coded_secret"
+    },
+    {
+      "file": "violating-14.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "encryption_disabled"
+    },
+    {
+      "file": "violating-15.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "encryption_disabled"
+    },
+    {
+      "file": "violating-16.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "encryption_disabled"
+    },
+    {
+      "file": "violating-17.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "encryption_disabled"
+    },
+    {
+      "file": "violating-18.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "encryption_disabled"
+    },
+    {
+      "file": "violating-19.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "encryption_disabled"
+    },
+    {
+      "file": "violating-20.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "world_writable"
+    },
+    {
+      "file": "violating-21.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "world_writable"
+    },
+    {
+      "file": "violating-22.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "world_writable"
+    },
+    {
+      "file": "violating-23.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "world_writable"
+    },
+    {
+      "file": "violating-24.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "world_writable"
+    },
+    {
+      "file": "violating-25.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "bind_all_interfaces"
+    },
+    {
+      "file": "violating-26.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "bind_all_interfaces"
+    },
+    {
+      "file": "violating-27.json",
+      "label": "violating",
+      "outcome": "true_positive",
+      "predicted_violating": true,
+      "violation_type": "bind_all_interfaces"
+    },
+    {
+      "file": "violating-28.json",
+      "label": "violating",
+      "outcome": "false_negative",
+      "predicted_violating": false,
+      "violation_type": "secret_in_plain_text_content"
+    },
+    {
+      "file": "violating-29.json",
+      "label": "violating",
+      "outcome": "false_negative",
+      "predicted_violating": false,
+      "violation_type": "secret_alternate_key_name"
+    }
+  ],
+  "study": "rq3_policy",
+  "tool": "conftest",
+  "tool_version": "Conftest: 0.71.1",
+  "true_negatives": 30,
+  "true_positives": 28
+}

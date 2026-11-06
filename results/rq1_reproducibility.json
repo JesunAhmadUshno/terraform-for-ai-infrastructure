@@ -1,0 +1,267 @@
+{
+  "per_engine": {
+    "terraform": {
+      "engine": "terraform",
+      "max_seconds": 10.249,
+      "median_seconds": 3.513,
+      "min_seconds": 2.068,
+      "runs": [
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 1,
+          "seconds": 2.464,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 2,
+          "seconds": 2.496,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 3,
+          "seconds": 2.454,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 4,
+          "seconds": 2.329,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 5,
+          "seconds": 2.068,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 6,
+          "seconds": 2.706,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 7,
+          "seconds": 3.108,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 8,
+          "seconds": 3.541,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 9,
+          "seconds": 4.526,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 10,
+          "seconds": 10.249,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 11,
+          "seconds": 9.855,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 12,
+          "seconds": 4.746,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 13,
+          "seconds": 4.448,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 14,
+          "seconds": 5.12,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 15,
+          "seconds": 3.761,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 16,
+          "seconds": 3.34,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 17,
+          "seconds": 3.295,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 18,
+          "seconds": 5.591,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 19,
+          "seconds": 4.826,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 20,
+          "seconds": 3.484,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        }
+      ],
+      "runs_matching_run1": 20,
+      "runs_total": 20,
+      "version": "Terraform v1.17.1"
+    },
+    "tofu": {
+      "engine": "tofu",
+      "max_seconds": 12.143,
+      "median_seconds": 6.675,
+      "min_seconds": 2.688,
+      "runs": [
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 1,
+          "seconds": 2.688,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 2,
+          "seconds": 4.343,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 3,
+          "seconds": 4.482,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 4,
+          "seconds": 8.285,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 5,
+          "seconds": 7.423,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 6,
+          "seconds": 7.922,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 7,
+          "seconds": 9.259,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 8,
+          "seconds": 4.528,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 9,
+          "seconds": 4.991,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 10,
+          "seconds": 2.724,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 11,
+          "seconds": 3.391,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 12,
+          "seconds": 5.598,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 13,
+          "seconds": 6.59,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 14,
+          "seconds": 9.357,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 15,
+          "seconds": 12.143,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 16,
+          "seconds": 5.903,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 17,
+          "seconds": 7.494,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 18,
+          "seconds": 6.76,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 19,
+          "seconds": 7.24,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        },
+        {
+          "plan_hash": "08fac9cd4b7f4d1cb5f882ef83b36262fc9f54ec40dae61e8c04d6eb2d1d6507",
+          "run": 20,
+          "seconds": 7.267,
+          "state_hash": "4591811d3937940029a4955010fe11df5387b223ebaf96d463a7e1c8b49e6458"
+        }
+      ],
+      "runs_matching_run1": 20,
+      "runs_total": 20,
+      "version": "OpenTofu v1.13.9"
+    }
+  },
+  "study": "rq1_reproducibility"
+}
