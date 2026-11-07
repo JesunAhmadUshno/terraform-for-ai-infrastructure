@@ -10,3 +10,6 @@ lab/stack/.terraform.lock.hcl.bak
 work/
 *.egg-info/
 lab/stack/.terraform.lock.hcl
+site/node_modules/
+site/dist/
+site/.rubric/
