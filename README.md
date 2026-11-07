@@ -1,5 +1,7 @@
 # Terraform for AI Infrastructure: a local measurement lab
 
+Live dashboard: https://jesunahmadushno.github.io/terraform-for-ai-infrastructure/ (built from results/, corpus/ and policy/ by .github/workflows/pages.yml; the policy playground runs a JS port of policy/policy.rego in the browser, checked against results/rq3_policy.json at build time). Research review: docs/research-review.md.
+
 ## Problem
 
 AI platform work rests on infrastructure code. If the same code gives a different plan or a different rebuild result, a reviewer cannot check the work. If out-of-band change is not detected, recorded state and real state diverge with no signal. If a policy tool misses insecure settings or flags safe ones, teams get false confidence or false alarms. These questions can be measured locally at zero spend, and this repo measures them.
