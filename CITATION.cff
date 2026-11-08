@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "terraform-for-ai-infrastructure: plan equivalence, rebuild reproducibility, drift recall and policy precision for OpenTofu and Terraform on a local AI platform stack, a pre-registered measurement lab"
+authors:
+  - family-names: Ushno
+    given-names: Jesun Ahmad
+repository-code: "https://github.com/JesunAhmadUshno/terraform-for-ai-infrastructure"
+license: Apache-2.0
+date-released: 2026-11-08
