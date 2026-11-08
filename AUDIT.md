@@ -1,7 +1,7 @@
 # AUDIT
 
 Date: 2026-11-06
-Scope: tool provenance, licence, cost, security, claim and grade audit for this build.
+Scope: tool provenance, licence, cost, security and claim audit for this build. The limits it once listed with its self-assessment are in REPORT.md, "Threats to validity and limitations"; grades are kept outside the public repo.
 
 ## Tool provenance
 
@@ -19,7 +19,7 @@ The provider zip hash matches the entry in the official terraform-provider-local
 ## Licence audit
 
 - Repository code and docs: Apache-2.0.
-- Terraform: BSL 1.1, source available, not OSI open source. Stated in README.md, SPEC.md and RESEARCH.md wherever the licence is mentioned.
+- Terraform: BSL 1.1, source available, not OSI open source. Stated in SPEC.md and REPORT.md (which absorbed RESEARCH.md on 2026-11-08) wherever the licence is mentioned.
 - OpenTofu: MPL-2.0.
 - conftest and OPA: Apache-2.0.
 - hashicorp/local provider: MPL-2.0.
@@ -44,23 +44,6 @@ Total spend: zero. No cloud account was opened, no AWS resource was created, no 
 - Run history honesty: the first reproducibility batch produced per engine plan hashes that differed across engines for an unisolated leftover state reason, while each engine still matched itself 20 of 20. That batch was discarded as the record and the study was rerun clean. The recorded file is the clean rerun, in which plan and state hashes are identical across engines. The discarded batch is named here so the record does not hide it.
 - No novelty claim is made. Verdict Pack 02 records that a full differential testing literature search was not run.
 - No production, cloud scale or serving claim is made.
-
-## Grade
-
-Self grade on the house 10,000 scale, floored, with itemized deductions. Grade: 7,350 of 10,000.
-
-Deductions:
-- Minus 600: one provider only. Equivalence, reproducibility and drift evidence is bounded to hashicorp/local.
-- Minus 400: drift measured on one engine only. The cross engine drift comparison is deferred to ROADMAP.md.
-- Minus 400: policy corpus is 60 files with one policy tool. No second tool comparator.
-- Minus 300: CI runs the Python tests only. Engine runs are not in CI.
-- Minus 250: no native engine test files in this pass.
-- Minus 250: literature base is the verdict pack. No fresh full literature search was run for this build.
-- Minus 200: lock file not committed per engine, a documented limitation in DECISIONS.md D5.
-- Minus 150: wall time medians were measured on a shared VM under load, so timing is environment bound.
-- Minus 100: one discarded reproducibility batch and one discarded plan equivalence attempt from registry timeouts, both recorded, cost process quality.
-
-Total deductions: 2,650. 10,000 minus 2,650 is 7,350.
 
 ## Maintenance audit
 

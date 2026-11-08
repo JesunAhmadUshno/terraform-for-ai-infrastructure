@@ -33,7 +33,7 @@ Reason: Registry access from the build VM showed transient timeout spikes during
 ## D7: Drift study runs on OpenTofu only
 
 Decision: RQ2 uses OpenTofu. RQ1 covers the cross engine question.
-Reason: The pre-registered question for RQ2 is about refresh plan detection on this stack, not about engine differences. Running the full mutation set on one engine keeps the trial count high where the question lives. A cross engine drift comparison is listed in ROADMAP.md.
+Reason: The pre-registered question for RQ2 is about refresh plan detection on this stack, not about engine differences. Running the full mutation set on one engine keeps the trial count high where the question lives. A cross engine drift comparison is listed in REPORT.md, Future work (moved there from ROADMAP.md on 2026-11-08).
 
 ## D8: Two corpus cases are designed to be missed, and are declared in advance
 
@@ -54,3 +54,8 @@ Reason: Charter hard rule and the task scope. Nothing in RQ1 to RQ3 needs a clou
 
 Decision: On this build VM, OpenTofu resolves the hashicorp/local provider from a local filesystem mirror under the workspace tools directory, through a CLI config file passed with TF_CLI_CONFIG_FILE. Terraform resolves its provider from its registry directly.
 Reason: The OpenTofu registry discovery request timed out repeatedly from this VM, while the same request by curl and the Terraform registry both answered. The mirror holds the official provider zip for local 2.5.2, and its SHA256 matches the official SHA256SUMS file from releases.hashicorp.com, recorded in AUDIT.md. The provider binary is therefore the same file either way, and no measured value changes. On a machine with normal registry access, plain init works and the mirror is not needed. This is an environment fix, recorded here so the run history is honest.
+
+## D12: Restructure to the portfolio standard v2 (2026-11-08)
+
+Decision: README opens with the question, headline, field, job family and verdict. REPORT.md gathers the old README body, RESEARCH.md, ROADMAP.md and docs/research-review.md; those three files are removed after the move. SPEC.md and HYPOTHESES.md stay byte for byte as committed in fee401d, tagged proposal-v1, and tests/test_layout.py pins both SHA-256 values. Files named by the locked SPEC.md (METHODS.md, RESULTS.md, AUDIT.md, DECISIONS.md, results/) keep their names, and this file stands in for docs/decisions/. The scored self-assessment in AUDIT.md and the rubric ratings in the research review leave the public repo; scores are internal.
+Reason: One layout across the portfolio, with the lock enforced in code. Renaming files that the locked plan names would break the lock's own references.
