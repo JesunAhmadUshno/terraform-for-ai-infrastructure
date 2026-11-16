@@ -93,7 +93,7 @@ export default function App() {
   useReveal();
   const [picked, setPicked] = useState('violating-28.json');
   return (
-    <div className="wrap">
+    <div className="wrap"><a className="skip" href="#top">Skip to content</a>
       <MenuBar />
       <div className="glow" aria-hidden="true" />
       <Hero />
@@ -111,7 +111,7 @@ export default function App() {
         <p style={{ margin: '0 0 12px' }}>Reproduce the recorded runs (needs OpenTofu, Terraform and conftest installed; no cloud account):</p>
         <p style={{ margin: '0 0 16px' }}><code>python3 -m pytest</code> <code>python3 -m harness.rq1_plan_equivalence</code> <code>python3 -m harness.rq1_reproducibility</code> <code>python3 -m harness.rq2_drift</code> <code>python3 -m harness.generate_corpus</code> <code>python3 -m harness.rq3_policy</code> <code>python3 -m harness.generate_results_md</code></p>
         Code: Apache-2.0 · <a href={REPO} style={{ color: '#e9e4da' }}>Repository</a> · Every number here is read from <code>results/</code>, <code>corpus/</code>, <code>policy/</code> and <code>lab/</code> at build time, or computed in your browser from them. No engine was re-run to build this page.
-      </footer>
+      <nav className="support" aria-label="Support this work"><a href="https://github.com/sponsors/JesunAhmadUshno">Sponsor this work</a><a href="https://github.com/sponsors/JesunAhmadUshno">Donate</a><a href="https://buymeacoffee.com/jesun">Buy Me a Coffee</a><a href="https://calendly.com/jesunahmadushno/30min">Work with me</a></nav></footer>
     </div>
   );
 }
@@ -120,7 +120,7 @@ function Hero() {
   const tofu = rep.per_engine.tofu, tf = rep.per_engine.terraform;
   const ci = wilson(drift.detected, drift.total);
   return (
-    <header className="card hero window" id="top" data-title="tofu-lab — README.md">
+    <header className="card hero window" id="top" data-title="tofu-lab - README.md">
       <div className="head">
         <p className="eyebrow">Pre-registered measurement study · zero spend · CPU-local</p>
         <span className="pill info">Hypotheses committed before experiment code</span>
@@ -154,7 +154,7 @@ function Stack() {
   const services = FILES.filter((f) => fileToAddress[f].includes('service['));
   const others = FILES.filter((f) => !services.includes(f));
   return (
-    <section id="stack" className="card window reveal" data-title={`main.tf — ${FILES.length} local_file resources`}>
+    <section id="stack" className="card window reveal" data-title={`main.tf - ${FILES.length} local_file resources`}>
       <p className="eyebrow">The test object</p>
       <h2>One small stack, chosen so that <em>any</em> difference is the engine’s fault.</h2>
       <p className="sub">
@@ -174,7 +174,7 @@ function Stack() {
 function PlanDiff() {
   const mism = new Set(rq1.mismatches.map((m) => m.address));
   return (
-    <section id="plan" className="card window reveal" data-title="plan-diff.json — OpenTofu vs Terraform">
+    <section id="plan" className="card window reveal" data-title="plan-diff.json - OpenTofu vs Terraform">
       <div className="head">
         <div>
           <p className="eyebrow">RQ1 · plan equivalence · H1</p>
@@ -208,7 +208,7 @@ function Rebuild() {
   const rowY = (i) => pad.t + 30 + i * 56;
   const shown = sel ?? r1;
   return (
-    <section id="rebuild" className="card window reveal" data-title="rebuild.log — 20 destroy/apply cycles per engine">
+    <section id="rebuild" className="card window reveal" data-title="rebuild.log - 20 destroy/apply cycles per engine">
       <div className="head">
         <div>
           <p className="eyebrow">RQ1 · rebuild reproducibility · H2 · recorded runs</p>
@@ -258,7 +258,7 @@ function Drift() {
   const ci = wilson(drift.detected, drift.total), ciM = wilson(drift.managedDetected, drift.managed);
   const filterId = useId();
   return (
-    <section id="drift" className="card window reveal" data-title={`drift-matrix — recorded run, ${rq2.engine_version}`}>
+    <section id="drift" className="card window reveal" data-title={`drift-matrix - recorded run, ${rq2.engine_version}`}>
       <div className="head">
         <div>
           <p className="eyebrow">RQ2 · drift detection · H3 · recorded replay</p>
@@ -341,7 +341,7 @@ function Mix() {
   const contentOnly = mixRecall(rates, Object.fromEntries(TYPES.map((k) => [k, rates[k].rate ? 1 : 0])));
   const silentOnly = mixRecall(rates, Object.fromEntries(TYPES.map((k) => [k, rates[k].rate ? 0 : 1])));
   return (
-    <section id="mix" className="card window reveal" data-title="mix-whatif — reweighting recorded outcomes">
+    <section id="mix" className="card window reveal" data-title="mix-whatif - reweighting recorded outcomes">
       <p className="eyebrow">What-if · computed from the recorded per-type rates, not a new run</p>
       <h2>Change the mix of mutations and the headline recall goes <em>anywhere from {f2(silentOnly)} to {f2(contentOnly)}</em>.</h2>
       <p className="sub">Each slider sets how many trials of that type a study would seed. Recall is the weighted mean of the detection rates recorded in <a href={blob('results/rq2_drift.json')}>rq2_drift.json</a>. Engines cannot run in a browser, so this only re-weights what was measured.</p>
@@ -371,7 +371,7 @@ function Policy({ onPick }) {
   for (const row of c.rows) if (row.label === 'violating') { const o = (byType[row.violation_type] ||= { n: 0, hit: 0 }); o.n++; if (row.pred) o.hit++; }
   const ciP = c.tp + c.fp ? wilson(c.tp, c.tp + c.fp) : null, ciR = wilson(c.tp, c.tp + c.fn);
   return (
-    <section id="policy" className="card window reveal" data-title="policy.rego — running in your browser">
+    <section id="policy" className="card window reveal" data-title="policy.rego - running in your browser">
       <div className="head">
         <div>
           <p className="eyebrow">RQ3 · policy accuracy · H4 · live</p>
@@ -438,7 +438,7 @@ function Sandbox({ picked, setPicked }) {
   const unparsed = doc && Array.isArray(doc.resource_changes) ? doc.resource_changes.filter((rc) => { try { const v = JSON.parse(rc?.change?.after?.content); return !(v && typeof v === 'object'); } catch { return true; } }).map((rc) => rc.address) : [];
   const label = labels.find((l) => l.file === picked);
   return (
-    <section id="sandbox" className="card window reveal" data-title="plan.json — sandbox">
+    <section id="sandbox" className="card window reveal" data-title="plan.json - sandbox">
       <p className="eyebrow">Plan-JSON sandbox · live</p>
       <h2>Edit a plan and watch which rules <em>fire</em>.</h2>
       <p className="sub">Start from any corpus file, change a field (try <code>"exposure": "public"</code> inside the content, or <code>"file_permission": "0777"</code>), and the ported rules re-run on every keystroke.</p>
@@ -489,7 +489,7 @@ function Verdicts() {
   const W = 960, rowH = 46, H = rows.length * rowH + 34, l = 250, r = 16, lo = 0.5, hi = 1;
   const x = (v) => l + ((Math.max(lo, v) - lo) / (hi - lo)) * (W - l - r);
   return (
-    <section id="verdicts" className="card window reveal" data-title="verdicts.py — thresholds and 95% intervals">
+    <section id="verdicts" className="card window reveal" data-title="verdicts.py - thresholds and 95% intervals">
       <p className="eyebrow">Uncertainty · not reported in the original results</p>
       <h2>H3 clears its cut by <em>a single detection</em>.</h2>
       <p className="sub">
@@ -546,7 +546,7 @@ function Limits() {
     ['Local and CPU only', 'Nothing here shows cloud IAM, networking, quota or GPU behaviour.'],
   ];
   return (
-    <section id="limits" className="card window reveal" data-title="LIMITS.md — threats and roadmap">
+    <section id="limits" className="card window reveal" data-title="LIMITS.md - threats and roadmap">
       <p className="eyebrow">Limitations and threats to validity</p>
       <h2>What this lab does <em>not</em> show.</h2>
       <div className="grid2" style={{ marginTop: 16 }}>
