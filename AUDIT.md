@@ -16,6 +16,14 @@ All tools were installed from official release downloads into the workspace tool
 
 The provider zip hash matches the entry in the official terraform-provider-local 2.5.2 SHA256SUMS file, checked during the build. That match is the provenance basis for the OpenTofu filesystem mirror described in DECISIONS.md D11.
 
+## Addendum, 2026-11-17: provider for the D12 second provider extension
+
+| Tool | Version | Download | SHA256 of download |
+| --- | --- | --- | --- |
+| Provider hashicorp/random | 3.9.1 | terraform-provider-random_3.9.1_linux_amd64.zip from releases.hashicorp.com | 60b4f8a8ef18f52bf8e19215229dae408bee732825964092db7c989fd2de4097 |
+
+The provider zip hash matches the entry in the official terraform-provider-random 3.9.1 SHA256SUMS file, checked on the registration date. The verified zip sits in the same filesystem mirror as the local provider, under registry.opentofu.org/hashicorp/random, for OpenTofu; Terraform resolves it from its registry directly. hashicorp/random is MPL-2.0. The extension is registered in DECISIONS.md D12 and writes only new result files; no recorded number in this audit changes.
+
 ## Licence audit
 
 - Repository code and docs: Apache-2.0.
