@@ -1,0 +1,24 @@
+corpus:
+  - changed-files:
+      - any-glob-to-any-file: ["corpus/**"]
+harness:
+  - changed-files:
+      - any-glob-to-any-file: ["harness/**"]
+lab:
+  - changed-files:
+      - any-glob-to-any-file: ["lab/**"]
+policy:
+  - changed-files:
+      - any-glob-to-any-file: ["policy/**"]
+tests:
+  - changed-files:
+      - any-glob-to-any-file: ["tests/**"]
+site:
+  - changed-files:
+      - any-glob-to-any-file: ["site/**"]
+automation:
+  - changed-files:
+      - any-glob-to-any-file: [".github/**"]
+docs:
+  - changed-files:
+      - any-glob-to-any-file: ["README.md", "REPORT.md", "CHANGELOG.md"]

@@ -11,7 +11,7 @@ The policy study, RQ3, does not apply anything. Its test object is a corpus of p
 - OpenTofu, primary. Version and download hash are in AUDIT.md.
 - Terraform, comparator. Terraform is source available under BSL 1.1, not OSI open source. Version and download hash are in AUDIT.md.
 - conftest with OPA, for RQ3. Version and download hash are in AUDIT.md.
-- Provider: hashicorp/local, version 2.5.2, pinned in the configuration. The lock file is kept between runs of a study because it pins provider selections. It is not committed per engine, because the two engines record different registry hosts in their lock files. That difference is itself noted in RESULTS.md discussion in README.md limitations.
+- Provider: hashicorp/local, version 2.5.2, pinned in the configuration. The lock file is kept between runs of a study because it pins provider selections. It is not committed per engine, because the two engines record different registry hosts in their lock files. That difference is itself noted in the limitations in REPORT.md.
 
 ## RQ1 plan equivalence
 
