@@ -1,0 +1,16 @@
+{
+  "addresses_compared": 13,
+  "amendment": "D12",
+  "engine_versions": {
+    "terraform": "Terraform v1.17.1",
+    "tofu": "OpenTofu v1.13.9"
+  },
+  "match_rate": 1.0,
+  "matches": 13,
+  "mismatches": [],
+  "provider": "hashicorp/random",
+  "provider_version": "3.9.1",
+  "resource_count_terraform": 13,
+  "resource_count_tofu": 13,
+  "study": "amendment_random_plan_equivalence"
+}

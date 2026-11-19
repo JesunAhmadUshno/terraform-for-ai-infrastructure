@@ -1,0 +1,322 @@
+{
+  "amendment": "D12",
+  "cross_engine": {
+    "distinct_plan_hashes_total": 1,
+    "distinct_state_hashes_total": 40,
+    "plan_hash_sets_identical": true,
+    "state_hashes_shared_across_engines": 0
+  },
+  "per_engine": {
+    "terraform": {
+      "engine": "terraform",
+      "max_seconds": 2.658,
+      "median_seconds": 2.314,
+      "min_seconds": 2.147,
+      "refresh_plan_no_changes_after_apply": 20,
+      "runs": [
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 1,
+          "seconds": 2.254,
+          "state_hash": "1946a9a1bb0a04b5e35dc0b00edb7cd98b7370f472a0119a57ba98d02694ffa0"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 2,
+          "seconds": 2.23,
+          "state_hash": "b0e1d5277fbb6ce012b3b9e2fc0f844902c210b62e327eba6d3554524f553126"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 3,
+          "seconds": 2.266,
+          "state_hash": "c82f4558898f0be8fda1715c5df15712556844336bbdb86be17c3634ec6b8df5"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 4,
+          "seconds": 2.259,
+          "state_hash": "78414b6d7d5e2f677c2b3f280ee484dfe9981a369999805ae79b1847ae4bc421"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 5,
+          "seconds": 2.245,
+          "state_hash": "02d3bab830beab767a8c74a60e98bea7d3efc4f2c47d69a2aeec99c20937ebcb"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 6,
+          "seconds": 2.335,
+          "state_hash": "f44100752a66c7cb0b41ca7639978b5a327d522c334795ba0d33176f145b9ed0"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 7,
+          "seconds": 2.282,
+          "state_hash": "41931d4d128441e86208d4de5c84d2bdeaa2cacd722c7a54d143e91c56b22616"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 8,
+          "seconds": 2.324,
+          "state_hash": "034d562799042f5138d9d4a70dc7753725628c4fc26bc389f12d847dee656989"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 9,
+          "seconds": 2.365,
+          "state_hash": "ecccc62b317689c8ec49a2e26b7c69e063624d9cc33635d66ac7502a94672a8d"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 10,
+          "seconds": 2.416,
+          "state_hash": "ee8729e3fce974bf04986ca2ab3911d58dddd36c4b226b6e6190ce8364fed060"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 11,
+          "seconds": 2.305,
+          "state_hash": "836982570962a5e3dd2b134f21f65e046aa888af8915145c43271d8cc94c7347"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 12,
+          "seconds": 2.327,
+          "state_hash": "b8f11a9fdc43bcb98dfb9472358dda73e51ed7bed062a759c32784c3c7d14b12"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 13,
+          "seconds": 2.147,
+          "state_hash": "c542beba6830541fac8f044c11a48d1623f43545303afe0fd1310e800989bc16"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 14,
+          "seconds": 2.188,
+          "state_hash": "808518d283b6b7de03a57cf69716711a57d8ac6c7f55bfdfcaf2ca6a3beea70f"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 15,
+          "seconds": 2.329,
+          "state_hash": "a650d2b36f58877a375359e8f34aed712bb25bc1dacb46c9853d4db31d859d87"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 16,
+          "seconds": 2.298,
+          "state_hash": "38f657d6ab54d2d6f4918025a455c79b588700739e2c13923be4ed8b5af53eb6"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 17,
+          "seconds": 2.626,
+          "state_hash": "b482b391f171d5acfafee31eacec1b394bdf9f65ca7efe201484879028951225"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 18,
+          "seconds": 2.426,
+          "state_hash": "f5b95a2de197ec2291c6c9ec1e7e9a2713891514cfcf1f344256f863f63cb532"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 19,
+          "seconds": 2.658,
+          "state_hash": "bd598b79479c33dfd4d9742bb22abe934114a61841129df2f6114a050b1e05a7"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 20,
+          "seconds": 2.592,
+          "state_hash": "64dce5ec5d48f11dc7043b2043ece56e604215945a7e99e7ca534e0a351374ae"
+        }
+      ],
+      "runs_matching_run1": 1,
+      "runs_matching_run1_plan_only": 20,
+      "runs_matching_run1_state_only": 1,
+      "runs_total": 20,
+      "version": "Terraform v1.17.1"
+    },
+    "tofu": {
+      "engine": "tofu",
+      "max_seconds": 3.213,
+      "median_seconds": 1.831,
+      "min_seconds": 1.531,
+      "refresh_plan_no_changes_after_apply": 20,
+      "runs": [
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 1,
+          "seconds": 1.575,
+          "state_hash": "b1c9d791fad43622bc2311f0bc1ecec7cba7ac0bec7de70e0506424985a094fc"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 2,
+          "seconds": 1.729,
+          "state_hash": "5d03c838fb8ab5596dab3fa52d178c026392ec078b1696f19c51a3627199329e"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 3,
+          "seconds": 1.877,
+          "state_hash": "8a4240ba0de222f155d2b7093ecca218538c96b10eb3a250e4b4a16da6599df2"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 4,
+          "seconds": 1.779,
+          "state_hash": "74862403316d24f4bf9604f22f1e7165bfd03d5b65edfe4014c8ae73d15d0565"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 5,
+          "seconds": 1.867,
+          "state_hash": "311d7af7b63057631fd7855cb50e72db470313a3cf6036b1547ea30bfbf96e22"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 6,
+          "seconds": 1.795,
+          "state_hash": "8317673c02f9d3f14b2058a799f9241413964b277afa5c13ba2cd72b8db04c1b"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 7,
+          "seconds": 1.561,
+          "state_hash": "039c7f6d5a93d68ea2bdb38feedc0dfd853d4222d8e50e4c538546030a67d238"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 8,
+          "seconds": 1.691,
+          "state_hash": "f14d7f51994ac68e8026344961dcceec4dabed6f20c18066de55e4c166ce5666"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 9,
+          "seconds": 1.538,
+          "state_hash": "c27ad340a10598b0ae92fb103a841a98004959708c59696e3175cb7a3cbb1a4e"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 10,
+          "seconds": 1.531,
+          "state_hash": "8243e396165701cca740e7b9f4b251bf0d234b810b5412f717383522a3d037c3"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 11,
+          "seconds": 1.689,
+          "state_hash": "d6c872f49b03ee4047b1241a3cee45c8ea6d3d19b7885bf77b5043d0f6e3d753"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 12,
+          "seconds": 1.74,
+          "state_hash": "bb697a8a2935cce5eaa75081283f00dfac43030763faf7fb9fc86037cf5ab7b9"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 13,
+          "seconds": 2.087,
+          "state_hash": "2fe9bd2be0b84a3865f7e5f87aec8d6b70774fbdbe20797622b411bedf425dc7"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 14,
+          "seconds": 2.444,
+          "state_hash": "c1267a555759efc3d3bb1c3f63816c6f2655e322eb77c83a1c642be77fa1c5d6"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 15,
+          "seconds": 2.677,
+          "state_hash": "0b4fbf6a555c912a9a55ae9de9354fc3eb8af38d7a39c66c69805471387502ce"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 16,
+          "seconds": 2.84,
+          "state_hash": "3493fc0009e2d7005536432f341e64b564665fa1a7c1983d039e6573788db1e8"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 17,
+          "seconds": 2.991,
+          "state_hash": "318a4acfd827b3e5b66a9ea77ff6d8674b8cfe18d0c9e855647c710aacafcc29"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 18,
+          "seconds": 3.213,
+          "state_hash": "72114a17c341eb018adfe1995438c7ce91b58d5888199f9962d1a0b75a028943"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 19,
+          "seconds": 3.185,
+          "state_hash": "02e7105b34dfb6156564085f442ecfdfd164db6354c02fb4c23616bb142b3fd1"
+        },
+        {
+          "plan_hash": "2d79d645e444d82a4f3f8b65b502243dc3b8f3a01bca407f809a47aa69c30e34",
+          "refresh_plan_exit_code": 0,
+          "run": 20,
+          "seconds": 2.284,
+          "state_hash": "2c1fe4e782b3a535c017ec73c569b04672627491155c558103d825ab76ba43b9"
+        }
+      ],
+      "runs_matching_run1": 1,
+      "runs_matching_run1_plan_only": 20,
+      "runs_matching_run1_state_only": 1,
+      "runs_total": 20,
+      "version": "OpenTofu v1.13.9"
+    }
+  },
+  "provider": "hashicorp/random",
+  "provider_version": "3.9.1",
+  "study": "amendment_random_reproducibility"
+}

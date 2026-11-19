@@ -1,0 +1,9 @@
+{
+  "amendment": "D12",
+  "equivalent_resource_exists": false,
+  "provider": "hashicorp/random",
+  "provider_version": "3.9.1",
+  "reason": "RQ2 measures whether a refresh plan detects an out-of-band change to a managed object. hashicorp/random resources have no external object: the provider stores the drawn value in state and reads nothing back from any external system on refresh, so no out-of-band mutation exists for a refresh plan to detect. No resource in the provider is an equivalent of local_file for this arm, so the arm is not run rather than approximated.",
+  "status": "not_run_no_equivalent_resource",
+  "study": "amendment_random_drift"
+}
